@@ -1,0 +1,597 @@
+.contenair {
+  background-color: #C8CFE5;
+}
+.navbar{
+background-color: #8B0000;
+color : white;
+margin-bottom: 0px;
+border-color: #8B0000;
+border-radius: 0;
+}
+.navbar .navbar-nav>li>a{
+color: white;
+font-size: 1.5em;
+font-family: 'Petit Formal Script',serif;
+}
+.navbar-inverse .babypig {
+   width : 70px;
+   margin-left: 0px;
+  margin-top : -15px;
+}
+.navbar-inverse .themarket {
+  width: 60%;
+  margin-top: 0px;
+}
+.nav>li>a{
+padding-bottom: 0px;
+}
+.navbar-brand{
+padding: 0px 0px 0px 0px;
+}
+
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+}
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+.carousel-inner {
+  margin: 0;
+  padding: 0;
+}
+.carousel-inner (#monslide) img {
+   -webkit-filter: grayscale(50%);
+}
+.carousel-caption>a>img {
+   width: 250px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-right: 20px;
+   margin-left: 20px;
+   text-align: center;
+}
+.picto1:hover {
+  width : 450px;
+  font-size: 50px;
+}
+.picto2:hover{
+  width : 450px;
+  font-size: 50px;
+}
+.picto3:hover{
+  width : 450px;
+  font-size: 50px;
+}
+.picto4:hover {
+  width : 450px;
+  font-size: 50px;
+}
+
+#Carousel {
+  margin-bottom: 15px;
+}
+a.top {
+   position:fixed;
+   z-index: 1;
+}
+.top{
+  margin-left: 48%;
+  margin-top: 700px;
+  opacity: 0.7;
+}
+
+body{
+
+}
+
+h2{
+font-family:'Lobster', cursive;
+font-size: 2em;
+text-align: center;
+font-size: 46px;
+
+}
+
+h3{ font-family:'Lobster', cursive;
+font-size: 2em;
+}
+
+h4 {
+font-family: 'Nanum Myeongjo',serif;
+font-size: 1.5em;
+color: #C8CFE5;
+}
+
+.section1{
+background-color:#C8CFE5;
+padding-top: 2%;
+padding-bottom: 3%;
+
+}
+
+.section2{
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.section3{
+background-color:#6F737F;
+margin-bottom: 10px;
+border-radius: 30px;
+margin-top: 20px;
+border: solid black 1px;
+border-radius: 30px;
+}
+.section4{
+width: 100%;
+height: auto;
+text-align: justify;
+color: #C8CFE5;
+}
+
+.section5{
+  background-color: #373940;
+border: solid black 1px;
+border-radius:30px 30px 0px 0px;
+}
+
+.section6{
+  height: 300px;
+  margin :auto;
+  font-family: 'Petit formal Script';
+  font-size: 1.3em;
+  color : #C8CFE5;
+  background-color: #373940;
+  text-align: center;
+}
+
+p{
+text-align: justify;
+margin-top:17px ;
+margin-bottom:17px;
+font-family: 'Petit Formal Script';
+font-size: 1.2em;
+color:black;
+
+}
+
+.separateur {
+  display: flex;
+  justify-content: center;
+    background-color:white;
+margin-bottom:20px;
+  margin-top:20px;
+}
+.horaires{
+
+  background-color: black;
+    border-radius:30px;
+   text-align: center;
+}
+.horaires > * {
+text-align: center;
+
+   font-family: 'Petit Formal Script',serif;
+  color: #C8CFE5;
+  font-size: 2em;
+  font-weight: normal;
+  margin-top: 15px;
+  margin: 15px;
+}
+
+
+
+.label {
+  background-color: #8B0000 ;
+}
+.title{
+font-family:'Lobster', cursive;
+font-size: 3.3em;
+}
+
+
+/*Début Restaurant*/
+
+.blocTextRestaurant{
+margin-top: 5%;
+border: solid white 1px;
+border-radius: 30px;
+padding: inherit;
+
+}
+.TitreRestaurant{
+width : 200px;
+background-color: #C8CFE5;
+margin-left : 40px;
+margin-top: -15px;
+}
+.TexteRestaurant{
+  text-align: justify;
+  margin-top: 5%;
+}
+.btn-info {
+  background-color:  #8B0000;
+  border-radius: 30px;
+}
+.bouton_menu{
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 30%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 40%;
+  font-family: 'Petit Formal Script';
+  font-size: 1.5em;
+  font-weight: bold;
+
+}
+
+.bouton_menu:focus, .bouton_menu:hover, .bouton_menu:active
+{
+  background: #8B0000;
+  outline: none;
+}
+
+.imgRestaurant1{
+  margin-bottom: 5px;
+  margin-top: 10%;
+  margin-left: 20px;
+}
+.imgRestaurant2{
+  margin-bottom: 5px;
+  margin-top: 10%;
+}
+.imgRestaurant3{
+margin-left: 20px;
+}
+
+/* Fin Restaurant*/
+
+
+/*Début Event*/
+
+.imgEvents{
+  border-radius: 10px;
+}
+.imgsport{
+  border-radius: 10px;
+}
+
+p.drink{
+text-align: justify;
+margin-top:17px ;
+margin-bottom:17px;
+}
+
+h2.titredrink
+{
+  width: 150px;
+  border-radius: 5px;
+  background-color: white;
+  margin-left: 50px;
+  margin-top: -20px;
+  text-align: center;
+
+}
+.bouton_drink{
+margin-left: 5%;
+margin-bottom: 9%;
+  width: 97%;
+border-radius: 50px;
+background: #8B0000;
+background-color: rgb(139, 0, 0);
+margin-top: 6%;
+padding-bottom: 6%;
+padding-top: 6%;
+font-size: 1.5em;
+font-family: 'Petit Formal Script';
+font-weight: bold;
+}
+
+
+
+
+.bouton_drink:focus, .bouton_drink:hover, .bouton_drink:active
+{
+  background: #8B0000;
+  outline: none;
+}
+
+.section4 h1
+{
+  font-family: 'Lobster';
+  font-size: 3em;
+  padding-top: -40%;
+  padding-left: 20%;
+  padding-bottom: 5%;
+  position: absolute;
+  top: 35%;
+  left: 10%;
+}
+
+
+
+.bru
+{
+  width: 100%;
+  border-radius: 30px;
+}
+
+.bouton_brunch
+{
+  width: 30%;
+  border-radius: 50px;
+  background: #8B0000;
+  margin-top: 5%;
+  padding-bottom: 2%;
+  padding-top: 2%;
+  font-size: 1.5em;
+  font-family: 'Petit Formal Script';
+  font-weight: bold;
+
+
+}
+
+
+.bouton_brunch:focus, .bouton_brunch:hover, .bouton_brunch:active
+{
+  background: #8B0000;
+  outline: none;
+}
+
+
+.btn-info
+{
+  border:none;
+}
+
+.data-content
+{
+  font-size: 1.5em;
+}
+
+
+.fond, .description{
+display: inline-block;
+flex:1 1 auto;
+min-width: 300px;
+max-width: 50%;
+min-height: 170px;
+}
+
+#fond{
+background-image: url("pbrunch.jpg");
+background-repeat: no-repeat;
+background: ;
+}
+
+/*fin brunch*/
+
+
+/*début contact*/
+h2.Contact{
+text-align: center;
+font-size: 3.5em;
+color: white  ;
+
+        }
+
+
+/*@media screen and (min-width:900px){ */
+form
+{display: flex;
+flex-direction: column;
+align-items: center;
+background-color: #373940;
+padding-left: 10%;
+padding-right: 10%;
+margin:0 10%;
+
+    }
+
+label{
+  color: #C8CFE5;
+  font-family: 'Nanum Myeongjo',serif;
+  font-size: 15px;
+}
+form > * {
+    padding: 5px;
+}
+
+textarea{
+    min-width: 80% ;
+    height :125px;
+  margin-bottom: 10px;
+}
+
+input[type=submit]
+{
+    color: #C8CFE5;
+font-size: 20px;
+margin-bottom: 10px;
+}
+
+
+input[type=submit]:hover{
+color: #FF1177;
+font-size: 20px;
+color: red;
+}
+
+select#object{
+    width: 183px;
+
+}
+
+
+
+/*@media screen and (min-width:900px){ */
+form
+{display: flex;
+flex-direction: column;
+align-items: center;
+padding-left: 10%;
+padding-right: 10%;
+margin:0 10%;
+
+    }
+
+form > * {
+    padding: 5px;
+}
+
+textarea{
+    min-width: 80% ;
+    height :125px;
+  margin-bottom: 10px;
+}
+
+input[type=submit]
+{
+color: #8B0000;
+font-size: 20px;
+margin-bottom: 10px;
+background-color:white;
+}
+
+
+input[type=submit]:hover{
+color: white;
+font-size: 20px;
+background-color:#8B0000;
+}
+
+select#object{
+    width: 183px;
+
+}
+
+.map{
+ margin-left: 10%
+}
+
+.horaire >*{
+  text-align: center;
+}
+
+
+/*fin contact*/
+/*debut footer*/
+
+.sectionS>div>iframe {
+  border-bottom: 15px;
+}
+footer{
+  background-color:#8B0000;
+  text-align: center;
+  font-family: 'Petit Formal Script';
+}
+.list-unstyled>li>.babypig {
+  width: 50px;
+}
+.list-unstyled>li>a {
+  color: #C8CFE5;
+  font-size: 1.5em;
+}
+.Contact {
+  margin-left: 15px;
+
+}
+.pub {
+  margin-left: auto;
+}
+
+.footer-copyright {
+  color : #C8CFE5;
+  font-size: 1.2em;
+}
+.buttonFb {
+  width: 40px;
+}
+/* @media (max-width : 1200px) {
+.navbar-right .navbar-nav {
+     visibility: hidden;
+}} */
+/* @media (max-width: 792px) {
+  .babypig {
+
+  }
+} */
+@media (max-width : 792px) {
+.horaires {
+  font-size: 0.8em;
+}
+}
+@media (max-width : 1200px) {
+.carousel-caption {
+  visibility: hidden;
+}
+}
+
+@media(max-width: 792px){
+.bouton_brunch
+{
+min-width: 200px;
+}
+}
+
+@media(max-width: 792px){
+.bouton_drink
+{
+min-width: 200px;
+height: 42px;
+padding-top: 5px;
+}
+}
+@media screen and (min-width:900px){
+.carousel-indicators{
+  display:none;
+}
+}
+
+@media(max-width: 792px){
+.bouton_drink >span
+{
+margin-bottom: 90px;
+  }
+}
+
+@media(max-width: 792px){
+.bouton_menu
+{
+min-width: 200px;
+margin-left: 12%;
+margin-bottom: 12px;
+}
+}
+@media (max-width : 792px) {
+.map {
+
+height: 0px;
+}
+}
+@media(max-width : 792px) {
+  .separateur {
+    visibility: hidden;
+    height : 10px;
+  }
+}

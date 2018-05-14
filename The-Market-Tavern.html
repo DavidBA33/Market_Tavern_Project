@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+  <meta charset="UTF-8">
+  <title>The Market Tavern</title>
+  <link   rel="stylesheet"
+             href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+             integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+             crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Petit+Formal+Script" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo" rel="stylesheet">
+  <link rel="stylesheet" href="TheMarketTavern.css">
+  <script src= "http://static.ak.fbcdn.net/connect.php/js/FB.Share" type="text/javascript"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+<!--Menu de notre TheMarketTavern avec le logo et les différentes sections qui seront reliées au menu burger-->
+<header>
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+<div class="container">
+<div class="navbar-header">
+<img class="babypig" src="pig.png" alt="logo">
+<img class="themarket" src="themarket.png" alt="logo1">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+
+</button>
+</div>
+<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+<ul class="nav navbar-nav">
+<li><a href="#Restaurant">Restaurant</a></li>
+<li><a href="#Events">Events</a></li>
+<li><a href="#Drink">Drink</a></li>
+<li><a href="#Brunch">Brunch</a></li>
+<li><a href="#Contact">Contact Us</a></li>
+<li><a href="#Contact">Where ?</a></li>
+</ul>
+</div>
+</div>
+</nav>
+</header>
+
+
+<!--Notre body avec notre carousel et nos différentes sections-->
+
+<body>
+  <a href="#" class="top"><img src="back_to_top.png" alt="back_to_top" width= "15%"></a>
+  <div id="Carousel" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="market1.jpeg" class="img-responsive">
+                <div class="carousel-caption">
+                  <a href="#Restaurant">
+                  <img class="picto1" src="picto_1.png" alt="logo">
+                </a>
+                  <a href="#Events">
+                  <img class="picto2" src="picto_3_.png" alt="logo">
+                </a>
+                <a href="#Drink">
+                  <img class="picto3" src="picto_3.png" alt="logo">
+                </a>
+                <a href="#Brunch">
+                  <img class="picto4" src="picto_4.png" alt="logo">
+                </a>
+            </div>
+          </div>
+           <div class="item">
+             <img src="events1.jpeg" class="img-responsive">
+             <div class="carousel-caption">
+               <a href="#Restaurant">
+               <img class="picto1" src="picto_1.png" alt="logo">
+             </a>
+               <a href="#Events">
+               <img class="picto2" src="picto_3_.png" alt="logo">
+             </a>
+             <a href="#Drink">
+               <img class="picto3" src="picto_3.png" alt="logo">
+             </a>
+             <a href="#Brunch">
+               <img class="picto4" src="picto_4.png" alt="logo">
+             </a>
+         </div>
+            </div>
+           <div class="item">
+             <img src="food.jpeg" class="img-responsive">
+             <div class="carousel-caption">
+               <a href="#Restaurant">
+               <img class="picto1" src="picto_1.png" alt="logo">
+             </a>
+               <a href="#Events">
+               <img class="picto2" src="picto_3_.png" alt="logo">
+             </a>
+             <a href="#Drink">
+               <img class="picto3" src="picto_3.png" alt="logo">
+             </a>
+             <a href="#Brunch">
+               <img class="picto4" src="picto_4.png" alt="logo">
+             </a>
+         </div>
+           </div>
+        <div class="item">
+          <img src="brunch.jpeg" class="img-responsive">
+          <div class="carousel-caption">
+            <a href="#Restaurant">
+            <img class="picto1" src="picto_1.png" alt="logo">
+          </a>
+            <a href="#Events">
+            <img class="picto2" src="picto_3_.png" alt="logo">
+          </a>
+          <a href="#Drink">
+            <img class="picto3" src="picto_3.png" alt="logo">
+          </a>
+          <a href="#Brunch">
+            <img class="picto4" src="picto_4.png" alt="logo">
+          </a>
+      </div>
+          </div>
+       </div>
+
+        <a class="left carousel-control" href="#Carousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#Carousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+</div>
+<div class="horaires">
+    <!--A voir les photos/pisctogrammes annexes à intégrer / Eventuellement le menu ?-->
+    <span class="label label-default opening">Opening Hours</span>
+    <p class="horaires">Mon to Fri : 12h00 – 00h00
+    Weekends : 12h00 – 02h00</p>
+    <span class="label label-default kitchen">Kitchen Hours</span>
+    <p class="horaires">Mon to Fri : 12h00 – 14h30, 19h00 – 22:00
+    Weekends : 12h30 – 15h00, 19h00 -22h00</p>
+    </div>
+
+
+<section class="history">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-8 col-xs-offset-2">
+      <div class="separateur">
+            <img src="separateur-Recovered.png" alt="separation">
+          </div>
+        <h2> History</h2>
+        <p> Opened in the start of 2015, The Market Tavern Bordeaux GastroPub is on the forefront of modern pub food and tasty craft beers on tap. Inspired by the modern gastro-pubs of London, TMT is a small family oriented establishment in the heart of Bordeaux’s chic and historic Chartrons district.
+        </p>
+        <div class="separateur">
+            <img src="separateur-Recovered.png" alt="separation">
+          </div>
+        </div>
+   </div>
+ </div>
+</section>
+
+   <section class="section1" id="Restaurant">
+  <div class="container">
+    <div class="row">
+     <div class="col-xs-11 col-md-6 col-md-offset-1">
+       <div class="blocTextRestaurant">
+       <h1 class="TitreRestaurant">Restaurant</h1>
+       <p class="TexteRestaurant">
+    The Market Tavern menu changes with the season but always offers good, hearty and quality food. With pub classics such as Fish and Chips (using a beer-batter home made with one of our IPAs), a selection of burgers (from classic Cheeseburgers to the Market Special, a double decker burger with pulled pork and onion rings) and some meals that combine the best of French and British cuisine (the British Steak Tartare, made with authentic cheddar cheese or Deep Fried Camembert bites) there is something for everyone. Even if you just want a light bite we have a selection of starters and sharing platters to be enjoyed with friends (such as Pulled Pork Nachos or our Tavern Platter).
+      </p>
+
+      <div class="boutonMenu">
+        <button type="button" class="btn btn-info bouton_menu" data-toggle="popover" data-placement="bottom" title="The Market Tavern Menu" data-content="
+<br>Bacon Cheddar Fries $8<br>
+We take a hardy portion of our steak fries and smother them in melted cheddar cheese, Applewood Smoked bacon and scallions.
+Topped off with a dollop of sour cream.(Add jalapeños for 50¢)</p><br>
+
+<br>Ultimate Bacon Cheddar Fries $9<br>
+We take our Bacon Cheddar Fries and smother them in queso. Finished with our house ranch. Go on, be a glutton!</p><br>
+
+<br>Irish Fries $10.50<br>
+Our famous creation won’t disappoint. Steak fries, topped  with  house  braised  corned  beef,  gouda cheese, spicy sauerkraut. Served with sour cream.</p><br>
+
+<br>Chicken Nachos $9<br>
+Tricolored tortilla chips with grilled chicken, tomatoes, jalapeños, bell peppers, onions, queso & shredded lettuce. Topped with a dollop of sour cream. </p><br>
+
+<br>Chicken Tenders $9<br>
+Deep-fried  breaded  chicken  tenders  served  with your choice of dipping sauce.</p><br>
+
+<br>Buffalo Wings (6) $6 (12) $10<br>
+A tradition in any pub. Your choice of buffalo, BBQ, and sweet Thai chili. Served with either bleu cheese or our house ranch sauce.</p><br>
+
+<br>Duck Wings (6) $7.50 (12) $12.50<br>
+We couldn’t be a Pub in Arkansas without our favorite fowl! Try them dry or with anywing sauce!</p><br>
+
+<br>Chips and Salsa $4(Refill $2.50)<br>
+Fresh house made salsa!</p><br>
+
+<br>Artichoke Spinach Dip $7.50<br>
+Our chef’s recipe, served with tortilla & pita chips.><br>"> !! Menu !! </button>
+
+
+
+        <button type="button" class="btn btn-info bouton_menu" href="#Contact" class="bouton"> Réservation</button></a>
+       </div>
+     </div>
+    </div>
+
+          <div class="col-xs-11 col-md-5 ">
+            <div class="imagesRestaurant">
+                <img src="imgRestaurant1.jpg" class="imgRestaurant1" width="40%" height="40%">
+                <img src="imgRestaurant2.jpg" class="imgRestaurant2" width="40%" height="40%">
+                <img src="imgRestaurant3.jpg" class="imgRestaurant3" width="40%" height="40%">
+                <img src="imgRestaurant4.jpg" class="imgRestaurant4" width="40%" height="40%">
+            </div>
+
+       </div>
+  </div>
+</div>
+
+
+</section>
+
+
+  <div class="separateur">
+      <img src="separateur-Recovered.png" alt="separation">
+    </div>
+
+<section class="section2" id="Events">
+
+    <img src="events.jpg" class="imgEvents" width="35%" height="35%">
+    <img src="liveSport.jpg" class="imgsport" width="35%" height="35%">
+
+</section>
+
+  <div class="separateur">
+      <img src="separateur-Recovered.png" alt="separation">
+    </div>
+
+    <section class="section3" id="Drink">
+
+<!-- <div class="bloc"> -->
+
+  <h2 class ="titredrink">DRINK</h2>
+
+  <div class="contenu">
+    <div class="container">
+
+      <div id="monslide" class="container">
+        <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#monslide" data-slide-to="0" class="active"></li>
+            <li data-target="#monslide" data-slide-to="1"></li>
+            <li data-target="#monslide" data-slide-to="2"></li>
+          </ol>
+        <div class="rows">
+          <div class="col-sm-4 col-xs-12 maclasse"><img src ="cherry.jpg" class="img-responsive" alt="" title="" /></div>
+          <div class="col-sm-4 col-xs-12 maclasse"><img src = "cointreau.jpg" class="img-responsive" alt="" title="" /></div>
+          <div class="col-sm-4 col-xs-12 maclasse"><img src = "coktail.jpg" class="img-responsive" alt="" title="" /></div>
+        </div>
+</div>
+        <div class="rows">
+            <div class="col-xs-12col-sm-8 col-md-8"><p class="drink">Begin your night with friends at The Market Tavern mastering your favourite cocktails! Your expert bartender will talk you through the finer art of crafting cocktails, teaching you the correct way to shake them in a Boston tin and how to muddle together your ingredients for the perfect mojito.
+            You can also enjoy Happy hours monday to friday : 5pm-8pm and Saturday to sunday 4pm -7pm, and drink a selection of beers.</p>
+            </div>
+          </div>
+
+          <div class="rows">
+             <div class="col-xs-12col-sm-4 col-md-4 text-center">
+              <button type="button" class="btn btn-info bouton_drink" data-toggle="popover" data-placement="bottom" title="The Market Tavern Drinks" data-content="Martini 6€ <br> Margarita 7€ <br> Old Fashioned 7€ <br> Gin tonic 8€ <br> Cherry on top 8€ <br> Happy Hours Pinte 4€50 : <br> Craft Pilsner Lager <br> Twisted Tistle IPA <br> Grimbergen Blanche <br> Guest Beer (ask at the beer) <br> Red , white, rosé Wines<br> Soft Drink"> <span>!! Drinks !!</span></button>
+        </div>
+      </div>
+</section>
+
+
+    <script type="text/javascript">
+    function myFunction(x) {
+    if (x.matches) { // If media query matches
+      $("#monslide").addClass("carousel slide").attr('data-ride','carousel');
+      $("#monslide .rows").addClass("carousel-inner");
+      $("#monslide .rows .maclasse").addClass("item");
+      $("#monslide .rows .maclasse:first").addClass("active");
+
+    }
+
+    $(document).ready(function(){
+        $('[data-toggle="popover"]').popover({html:true});
+    });
+    }
+
+    var x = window.matchMedia("(max-width: 480px)")
+    myFunction(x) // Call listener function at run time
+    x.addListener(myFunction) // Attach listener function on state changes
+
+
+    </script>
+
+    </section>
+
+  <div class="separateur">
+      <img src="separateur-Recovered.png" alt="separation">
+    </div>
+
+     <section class="section4" id="Brunch">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-6">
+
+          </div>
+        </div>
+
+        <div class="row ligne2">
+          <div class="col-xs-12 col-md-6">
+
+            <img class="bru img-responsive" src="brunch3.jpg" alt="Assiette de brunch" title="Assiette du brunch"/>
+          </div>
+          <div class="col-xs-12 col-md-6">
+            <p class="texte_brunch">Only on Sundays (from 11am to 3pm), we offer a Brunch Menu that includes staples such as two sizes of an English Breakfast, Eggs Benedict and more!.<br> You can also taste our delicious Caesar salad our Market salad. <br>
+            All the burgers are served with french fries and coleslaw.
+            Important : we use local bread buns !!!
+            And the Market Sauce : old styled mustard,sunflower oil, salt, pepper, pickles and onions. <br>
+            Without forgetting our tasty desserts such as Brownie, Lemon Cheesecake, Ice Cream, Fresh Strawberries, Greedy Coffee !!!<br>
+            Come with your family !!!! <br>
+            You want to know the menu, touch the icon below !<!--Spécialités du restaurant / Histoire (2-3 lignes)--></p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+
+        <div class="row">
+          <div class="col-xs-12 text-center">
+            <button type="button" class="btn btn-info bouton_brunch" data-toggle="popover" data-placement="bottom" title="The Market Tavern Brunch" data-content=" Market Breakfast 12€ <br> Eggs Benedict  13€ <br> Caesar Salad   13€ <br> Market Salad  15€ <br> Pièce du Boucher 18€ <br> Kids Menu 7.50€ <br> Cheeseburger 10.50€ <br> Veggie Burger 12.50€ <br> Chicken Bacon Avocado 14.50€ <br> Burger Bordelais 14.50€ <br> Market Burger 14.50€ <br> Big Tower 17€ "> !! The Menu !!</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <div class="separateur">
+      <img src="separateur-Recovered.png" alt="separation">
+    </div>
+
+    <section class="section5" id="Contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-xs-12 maclasse">
+          <h2 class="Contact">CONTACT US</h2>
+            <form action="formulaire.php">
+
+
+            <label for="fname">First Name</label>
+            <input type="text" name="firstname" placeholder="Your name">
+            <label for ="lname">Last Name</label>
+            <input type="text" name="lastname" placeholder="Your last name">
+            <label for="email">Your email </label>
+            <input type="email" name="lastname" placeholder="email@pop.com">
+            <label for="object">Your object</label>
+            <select id="object" name="object">
+                <option value="Reservation">Reservation</option>
+                <option value="Information">Information</option>
+            </select>
+
+         <label class="message" for="message "> Message </label>
+        <textarea class="message2" name="message" placeholder="To book a table to dinner, please sent us a message or call us : 05 56 21 00 60"></textarea>
+        <input class="bouton" type="submit" value="Sent">
+
+        </form>
+        </div>
+
+      <div class="col-sm-6 col-xs-12 maclasse">
+      <a class="where" href="https://www.google.fr/maps/place/The+Market+Tavern/@44.8525534,-0.5744639,17z/data=!3m1!4b1!4m5!3m4!1s0xd552879c241f0a7:0xb03531d05a62180!8m2!3d44.8525534!4d-0.5722752" target="_blank"> <h2 class="Contact">WHERE ?</h2></a>
+<br/>
+      <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2828.478282303876!2d-0.5744638854279749!3d44.85255718206852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd552879c241f0a7%3A0xb03531d05a62180!2sThe+Market+Tavern!5e0!3m2!1sfr!2sfr!4v1520786216974" width="450" height="300" frameborder="0" style="border-radius:60px" allowfullscreen></iframe>
+
+      <div class=horaire>
+        <h4>Opening Hours : </h4>
+
+<p>Mon to Fri : 12h00 – 00h00<br/>
+
+Weekends : 12h00 – 02h00</p>
+
+<h4>Kitchen hours : </h4>
+
+<p> Mon to Fri : 12h00 – 14h30, 19h00 – 22:00<br/>
+
+Weekends : 12h30 – 15h00, 19h00 -22h00</p>
+      </div>
+
+
+
+	</section>
+
+    <footer>
+        <div class="container-fluid">
+                <ul class="list-unstyled">
+                    <li>
+                      <img class="babypig" src="pig.png" alt="babypiglogo">
+                        <a class="contact" href="#!">Contact Us</a>
+                      <img class="babypig" src="pig.png" alt="babypiglogo">
+                    </li>
+                    <li>
+                        <a class="pub" href="https://www.greeneking.co.uk" target="_blank">The Bordeaux gastroppub</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div>
+          <a href="https://www.facebook.com/themarkettavernbordeaux/" target="_blank">
+          <img class="buttonFb" src="fb.png" alt="Boutton facebook">
+      </a>
+    </div>
+    <div class="footer-copyright py-3 text-center">
+        © 2018 Copyright
+    </div>
+</div>
+  </footer>
+  </body>
+  </div>
+  </html>

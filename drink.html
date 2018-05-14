@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+  <meta charset="UTF-8">
+  <title>The Market Tavern</title>
+<!--   <link   rel="stylesheet"
+             href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+             integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+             crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo" rel="stylesheet">
+  <link rel="stylesheet" href="TheMarketTavern.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+
+
+
+<section class="section3" id="#Drink">
+
+<!-- <div class="bloc"> -->
+
+	<h2 class ="titredrink">DRINK</h2>
+	
+	<div class="contenu">
+		<div class="container">
+		
+			<div id="monslide" class="container">
+				<!-- Indicators -->
+			    <ol class="carousel-indicators">
+			      <li data-target="#monslide" data-slide-to="0" class="active"></li>
+			      <li data-target="#monslide" data-slide-to="1"></li>
+			      <li data-target="#monslide" data-slide-to="2"></li>
+			    </ol>
+				<div class="rows">
+					<div class="col-sm-4 col-xs-12 maclasse"><img src ="cherry.jpg" class="img-responsive" alt="" title="" /></div>
+					<div class="col-sm-4 col-xs-12 maclasse"><img src = "cointreau.jpg" class="img-responsive" alt="" title="" /></div>
+					<div class="col-sm-4 col-xs-12 maclasse"><img src = "coktail.jpg" class="img-responsive" alt="" title="" /></div>
+				</div>
+</div>
+				<div class="rows">
+						<div class="col-sm-8 col-xs-12"><p class="drink">Begin your night with friends at The Market Tavern mastering your favourite cocktails! Your expert bartender will talk you through the finer art of crafting cocktails, teaching you the correct way to shake them in a Boston tin and how to muddle together your ingredients for the perfect mojito.
+						You can also enjoy Happy hours monday to friday : 5pm-8pm and Saturday to sunday 4pm -7pm, and drink a selection of beers.</p>
+						</div>
+						<button type="button" class="btn btn-info bouton_brunch" data-toggle="popover" data-placement="bottom" title="The Market Tavern Drink" data-content=" Martini 6€ <br> Margarita 7€ <br> Old Fashioned 7€ <br> Gin tonic 8€ <br> Cherry on top 8€ <br> Happy Hours Pinte 4€50 : <br> Craft Pilsner Lager <br> Twisted Tistle IPA <br> Grimbergen Blanche <br> Guest Beer (ask at the beer) <br> Red , white, rosé Wines<br>Soft Drink> !! Drink !!</button>
+							<!-- <div class="col-sm-4 col-xs-12">
+								<div class="popover__wrapper">
+					  			
+					  			<div class="push popover__content">
+					    		<p class="popover__message">DRINKS</p>
+					    		</div>
+							</div>
+				
+					</div>
+				</div>
+			
+		</div>
+	<!-- </div>	 -->
+</section>
+
+<script type="text/javascript">
+function myFunction(x) {
+if (x.matches) { // If media query matches
+	$("#monslide").addClass("carousel slide").attr('data-ride','carousel');
+	$("#monslide .rows").addClass("carousel-inner");
+	$("#monslide .rows .maclasse").addClass("item");
+	$("#monslide .rows .maclasse:first").addClass("active");
+
+} 
+
+$(document).ready(function(){
+    $('[data-toggle="popover"]').popover({html:true});  
+});
+}
+
+var x = window.matchMedia("(max-width: 480px)")
+myFunction(x) // Call listener function at run time
+x.addListener(myFunction) // Attach listener function on state changes
+
+
+</script>
+
+</html>
+
